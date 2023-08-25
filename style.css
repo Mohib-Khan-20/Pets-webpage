@@ -1,0 +1,950 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    /* border-top: 1px solid black; */
+    /* border-bottom: 1px solid black; */
+}
+
+.navbar {
+    width: 100%;
+    height: 14%;
+    /* border-bottom: 2px solid red; */
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.pets-icon {
+    width: 15%;
+    height: 70%;
+    /* border: .5px solid white; */
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-between; */
+
+}
+
+.icon {
+    height: 100%;
+    width: 40%;
+    /* border-right: 1px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fas {
+    color: white;
+    font-size: 40px;
+}
+
+.pets-capital {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.capital {
+    color: white;
+
+}
+
+.list {
+    width: 40%;
+    height: 70%;
+    /* border: .5px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    overflow: auto;
+}
+
+li {
+    color: white;
+    display: flex;
+}
+
+.facbook-icon {
+    width: 10%;
+    height: 70%;
+    /* border: .5px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.facebook {
+    height: 65%;
+    width: 40%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.twiter {
+    height: 65%;
+    width: 40%;
+    background-color: skyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fab {
+    font-size: 22px;
+    color: white;
+}
+
+.dog-cat {
+    width: 100%;
+    height: 58vh;
+    background: url(dog-and-cat.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.in-dog-cat {
+    /* border: 1px solid black; */
+    height: 90%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+
+}
+
+.sign-1 {
+    color: black;
+    display: flex;
+    position: absolute;
+    left: 0;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.sign-2 {
+    color: black;
+    position: absolute;
+    right: 0;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.div-5 {
+    width: 18%;
+    height: 15%;
+    /* border: 1px solid black; */
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.div-1 {
+    height: 50%;
+    width: 12%;
+    /* border: .5px solid black; */
+    background: url(cat.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+
+.div-2 {
+    height: 50%;
+    width: 12%;
+    /* border: .5px solid black; */
+    background: url(cats.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.div-3 {
+    height: 50%;
+    width: 12%;
+    /* border: .5px solid black; */
+    background: url(cat.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.div-4 {
+    height: 50%;
+    width: 12%;
+    /* border: .5px solid black; */
+    background: url(cats.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.div-with-4pictures {
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.in-4pictures-div {
+    width: 80%;
+    height: 70%;
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.div--1 {
+    /* border: 1px solid white; */
+    width: 22%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-1 {
+
+    width: 100%;
+    height: 62%;
+    background: url(cat.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.image-2 {
+
+    width: 100%;
+    height: 62%;
+    background: url(cats.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.heading-1 {
+    color: white;
+    margin-top: 2%;
+    font-size: 18px;
+}
+
+.pra-1 {
+    color: white;
+    margin-top: 2%;
+    font-size: 15px;
+    text-align: justify;
+
+}
+
+.skyblue-1 {
+    background-color: skyblue;
+    width: 100%;
+    height: 18%;
+
+}
+
+.h-1 {
+    width: 100%;
+    height: 45%;
+    /* border-top: .5px solid white; */
+    /* border-bottom: .5px solid white; */
+    text-align: center;
+
+
+}
+
+.h--1 {
+    color: white;
+    position: relative;
+    top: 32%;
+    font-size: 24px;
+}
+
+.p--4 {
+    width: 100%;
+    height: 32%;
+    text-align: center;
+}
+
+.p--5 {
+    color: white;
+}
+
+.third-last {
+    width: 100%;
+    height: 60vh;
+    /* border-top: 1px solid black; */
+    /* border-bottom: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.in-third-last {
+    /* border: 1px solid black; */
+    width: 80%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.in-third-last-1 {
+    /* border: 1px solid blue; */
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+
+}
+
+.image-3 {
+    width: 100%;
+    height: 66%;
+    background: url(catss.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.image-4 {
+    width: 100%;
+    height: 66%;
+    background: url(catsss.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.image-5 {
+    width: 100%;
+    height: 66%;
+    background: url(catssss.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.heading-3 {
+    margin-top: 4%;
+    margin-right: 4%;
+    margin-left: 4%;
+    text-align: justify;
+}
+
+.name {
+    position: absolute;
+    bottom: 0;
+    color: skyblue;
+}
+
+.second-last {
+    width: 100%;
+    height: 60vh;
+    background-color: skyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.in-second-last {
+    width: 90%;
+    height: 90%;
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.picture-1 {
+    width: 15%;
+    height: 42%;
+    /* border: 1px solid black ; */
+    background: url(cat.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.picture-2 {
+    width: 15%;
+    height: 42%;
+    /* border: 1px solid black ; */
+    background: url(cats.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.picture-3 {
+    width: 15%;
+    height: 42%;
+    /* border: 1px solid black ; */
+    background: url(catss.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.picture-4 {
+    width: 15%;
+    height: 42%;
+    /* border: 1px solid black ; */
+    background: url(catsss.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.picture-5 {
+    width: 15%;
+    height: 42%;
+    /* border: 1px solid black ; */
+    background: url(catssss.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.picture-6 {
+    width: 15%;
+    height: 42%;
+    /* border: 1px solid black ; */
+    background: url(catsssss.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+
+.picture-7 {
+    width: 15%;
+    height: 42%;
+    /* border: 1px solid black ; */
+    background: url(catssssss.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.picture-8 {
+    width: 15%;
+    height: 42%;
+    /* border: 1px solid black ; */
+    background: url(catsssssss.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.picture-9 {
+    width: 15%;
+    height: 42%;
+    /* border: 1px solid black ; */
+    background: url(catssssssss.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.picture-10 {
+    width: 15%;
+    height: 42%;
+    /* border: 1px solid black ; */
+    background: url(catsssssssss.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.picture-11 {
+    width: 15%;
+    height: 42%;
+    /* border: 1px solid black ; */
+    background: url(catssssssssss.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.picture-12 {
+    width: 15%;
+    height: 42%;
+    /* border: 1px solid black ; */
+    background: url(catsssssssssss.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.footer {
+    width: 100%;
+    height: 30vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.second-pets-icon {
+    width: 20%;
+    height: 50%;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: row;
+}
+
+.icon-2 {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-right: 1px solid white; */
+
+}
+
+.pets-capital-2 {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.copyright {
+    color: white;
+
+}
+
+.fa {
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    display: none;
+}
+
+.manue-button {
+    /* display: none;
+    color: white; */
+
+}
+
+input {
+    display: none;
+}
+
+@media(max-width:940px) {
+    .fa {
+        display: block;
+    }
+
+    .list {
+        position: absolute;
+        top: 74px;
+        transform: translateX(74.8%);
+        background-color: black;
+        height: 86vh;
+        flex-direction: column;
+        display: none;
+
+    }
+
+    #click:checked~.list {
+        /* transform: translateX(74.8%); */
+        display: block;
+    }
+}
+
+@media(max-width:1132px) {
+    .image-3 {
+        height: 58%;
+    }
+
+    .image-4 {
+        height: 58%;
+    }
+
+    .image-5 {
+        height: 58%;
+    }
+}
+
+@media(max-width:750px) {
+    .div-with-4pictures {
+        height: 254vh;
+    }
+
+    .in-4pictures-div {
+        height: 90%;
+        flex-direction: column;
+    }
+
+    .div--1 {
+        height: 30%;
+        width: 65%;
+    }
+
+    .third-last {
+        height: 300vh;
+    }
+
+    .in-third-last {
+        flex-direction: column;
+
+    }
+
+    .in-third-last-1 {
+        height: 32%;
+        width: 84%;
+    }
+
+    .second-last {
+        height: 400vh;
+    }
+
+    .in-second-last {
+        height: 95%;
+        width: 58%;
+        flex-direction: column;
+    }
+
+    .picture-1 {
+        height: 7%;
+        width: 66%
+    }
+
+    .picture-2 {
+        height: 7%;
+        width: 66%;
+    }
+
+    .picture-3 {
+        height: 7%;
+        width: 66%
+    }
+
+    .picture-4 {
+        height: 7%;
+        width: 66%
+    }
+
+    .picture-5 {
+        height: 7%;
+        width: 66%
+    }
+
+    .picture-6 {
+        height: 7%;
+        width: 66%
+    }
+
+    .picture-7 {
+        height: 7%;
+        width: 66%
+    }
+
+    .picture-8 {
+        height: 7%;
+        width: 66%
+    }
+
+    .picture-9 {
+        height: 7%;
+        width: 66%
+    }
+
+    .picture-10 {
+        height: 7%;
+        width: 66%
+    }
+
+    .picture-11 {
+        height: 7%;
+        width: 66%
+    }
+
+    .picture-12 {
+        height: 7%;
+        width: 66%
+    }
+}
+
+@media(max-width:700px) {
+    .facbook-icon {
+        width: 8%;
+        height: 58%;
+    }
+
+    .fab {
+        font-size: 12px;
+    }
+
+    .pets-capital {
+        font-size: 30px;
+    }
+
+    .fas {
+        font-size: 28px;
+    }
+
+    .div-5 {
+        height: 10%;
+    }
+
+}
+
+@media(max-width:622px) {
+    .facbook-icon {
+        width: 8%;
+        height: 45%;
+    }
+}
+
+@media(max-width:410px) {
+    .facbook-icon {
+        width: 11%;
+        height: 38%
+    }
+
+    .h--1 {
+        font-size: 16px;
+    }
+
+    .p--5 {
+        font-size: 12px;
+    }
+
+    .div-5 {
+        height: 32px;
+        width: 40%
+    }
+
+    .pets-capital {
+        width: 100%;
+    }
+
+    .capital {
+        font-size: 20px;
+    }
+
+    .fas {
+        font-size: 20px;
+
+    }
+}
+
+@media(max-width:320px) {
+    .third-last {
+        height: 192vh;
+    }
+
+    .image-1 {
+        height: 50%;
+    }
+
+    .image-2 {
+        height: 48%;
+    }
+
+    .div-with-4pictures {
+        height: 210vh;
+    }
+
+    .image-3 {
+        height: 54%;
+    }
+
+    .image-4 {
+        height: 54%;
+    }
+
+    .image-5 {
+        height: 54%;
+
+    }
+
+    .picture-1 {
+
+        width: 48%;
+        height: 15%;
+
+
+    }
+
+    .picture-2 {
+
+        width: 48%;
+        height: 15%;
+    }
+
+    .picture-3 {
+
+        width: 48%;
+        height: 15%;
+    }
+
+    .picture-4 {
+
+        width: 48%;
+        height: 15%;
+    }
+
+    .picture-5 {
+
+        width: 48%;
+        height: 15%;
+    }
+
+    .picture-6 {
+
+        width: 48%;
+        height: 19%;
+    }
+
+    .picture-7 {
+
+        width: 48%;
+        height: 15%;
+        /* position: relative;
+        bottom: 4%; */
+    }
+
+    .picture-8 {
+
+        width: 48%;
+        height: 15%;
+        /* position: relative;
+        bottom: 8%;  */
+    }
+
+    .picture-9 {
+
+        width: 48%;
+        height: 15%;
+        /* position: relative;
+        bottom: 12%; */
+    }
+
+    .picture-10 {
+
+        width: 48%;
+        height: 15%;
+        /* position: relative;  */
+    }
+
+    .picture-11 {
+
+        width: 48%;
+        height: 15%;
+    }
+
+    .picture-12 {
+
+        width: 48%;
+        height: 19%;
+    }
+
+    .footer {
+        height: 20%;
+    }
+
+    .copyright {
+        font-size: 12px;
+    }
+
+    .in-second-last {
+        height: 90%;
+        width: 88%;
+        /* border: 1px solid white; */
+        align-items: flex-start;
+    }
+
+    .second-last {
+        height: 150vh;
+    }
+
+    .div--1 {
+        width: 100%;
+    }
+    .h-1{
+        height: 35%;
+    }
+
+    .p--5 {
+        text-align: justify;
+        margin-right: 8%;
+        margin-left: 8%;
+        overflow: hidden;
+    }
+    .in-third-last-1 {
+    height: 32%;
+    width: 107%;
+}
+}
